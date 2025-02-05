@@ -1,0 +1,7 @@
+# Configuración del sonido (nombres válidos: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html)
+sound: "entity.experience_orb.pickup"
+volume: 1.0
+pitch: 1.5
+
+# Mensaje en action bar (usar & para colores)
+mensaje: "&eDía %dia%, Mes %mes%, Año %año%"
