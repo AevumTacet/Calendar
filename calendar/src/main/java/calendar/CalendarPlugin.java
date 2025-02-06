@@ -60,7 +60,9 @@ public class CalendarPlugin extends JavaPlugin implements Listener {
         @EventHandler
         public void onItemHeld(PlayerItemHeldEvent event) {
             Player player = event.getPlayer();
-            if (player.getInventory().getItem(event.getNewSlot()).getType() == Material.CLOCK) {
+            // Verificar si el slot nuevo tiene un ítem y si es un reloj
+            if (player.getInventory().getItem(event.getNewSlot()) != null && 
+                player.getInventory().getItem(event.getNewSlot()).getType() == Material.CLOCK) {
                 mostrarHoraReloj(player);
             }
         }
