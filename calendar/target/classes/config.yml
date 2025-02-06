@@ -1,0 +1,14 @@
+###########################################
+# Configuración del calendario
+dias: 1
+ultimo_tiempo: -1
+###########################################
+# Configuración del sonido (nombres válidos: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html)
+sound: "entity.experience_orb.pickup"
+volume: 1.0
+pitch: 1.5
+
+# Mensaje en action bar (usar & para colores)
+mensaje: "Día %dd%, Mes %mm%, Año %aaaa%"
+# Mensaje sostiendo un reloj
+mensaje_reloj: "Día %dd%, Mes %mm%, Año %aaaa% | Hora: %hrs%:%min%"
