@@ -9,6 +9,6 @@ volume: 1.0
 pitch: 1.5
 
 # Mensaje en action bar (usar & para colores)
-mensaje: "Día %dd%, Mes %mm%, Año %aaaa%"
+mensaje: "Day %dd%, Month %mm%, Year %aaaa%"
 # Mensaje sostiendo un reloj
-mensaje_reloj: "Día %dd%, Mes %mm%, Año %aaaa% | Hora: %hrs%:%min%"
+mensaje_reloj: "DDay %dd%, Month %mm%, Year %aaaa% | Hour: %hrs%:%min%"
